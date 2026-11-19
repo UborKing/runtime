@@ -1,0 +1,1 @@
+cmd_/home/kk/m_project/runtime_learn/source/kmd/accel_kmd.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -z noexecstack  -T ./scripts/module-common.lds --build-id  -o /home/kk/m_project/runtime_learn/source/kmd/accel_kmd.ko /home/kk/m_project/runtime_learn/source/kmd/accel_kmd.o /home/kk/m_project/runtime_learn/source/kmd/accel_kmd.mod.o ;  true
